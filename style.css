@@ -907,6 +907,14 @@ main {
     line-height: 1.7;
 }
 
+.team-photo {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 3rem auto;
+    display: block;
+}
+
 .content-wrapper ul {
     list-style: none;
     color: var(--text-medium);
