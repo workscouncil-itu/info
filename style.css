@@ -191,11 +191,15 @@ main {
     border: 1px solid var(--border-light);
     transition: all 0.3s ease;
     text-align: left;
+    text-decoration: none;
+    display: block;
+    color: inherit;
+    cursor: pointer;
 }
 
 .feature-card:hover {
     transform: translateY(-4px);
-    border-color: var(--border-color);
+    border-color: var(--accent-color);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
@@ -220,21 +224,6 @@ main {
     font-size: 1rem;
 }
 
-.feature-link {
-    color: var(--accent-color);
-    text-decoration: none;
-    font-weight: 600;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    transition: opacity 0.2s;
-}
-
-.feature-link:hover {
-    opacity: 0.7;
-    text-decoration: underline;
-}
 
 /* Buttons */
 .btn {
