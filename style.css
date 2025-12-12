@@ -113,7 +113,7 @@ main {
 /* Hero Section */
 .hero {
     background-color: var(--bg-white);
-    padding: 8rem 2rem 6rem;
+    padding: 6rem 2rem 3rem;
     text-align: center;
     border-bottom: 1px solid var(--border-light);
 }
@@ -125,7 +125,7 @@ main {
 
 .hero h1 {
     font-size: 4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     font-weight: 700;
     line-height: 1.1;
     letter-spacing: -0.05em;
@@ -175,14 +175,14 @@ main {
 
 /* Feature Grid */
 .features {
-    padding: 6rem 2rem;
+    padding: 3rem 2rem 5rem;
     background-color: var(--bg-light);
 }
 
 .feature-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2.5rem;
+    gap: 2rem;
 }
 
 .feature-card {
@@ -195,12 +195,30 @@ main {
     display: block;
     color: inherit;
     cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.feature-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background-color: var(--accent-color);
+    transform: scaleY(0);
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover::before {
+    transform: scaleY(1);
 }
 
 .feature-card:hover {
-    transform: translateY(-4px);
-    border-color: var(--accent-color);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transform: translateY(-3px);
+    border-color: var(--border-color);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .feature-icon {
@@ -211,15 +229,20 @@ main {
 
 .feature-card h2 {
     color: var(--text-dark);
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: -0.02em;
+    transition: color 0.3s ease;
+}
+
+.feature-card:hover h2 {
+    color: var(--accent-color);
 }
 
 .feature-card p {
     color: var(--text-medium);
-    margin-bottom: 1.5rem;
+    margin-bottom: 0;
     line-height: 1.7;
     font-size: 1rem;
 }
@@ -942,15 +965,20 @@ footer {
     }
 
     .hero {
-        padding: 5rem 1.5rem 4rem;
+        padding: 4rem 1.5rem 2rem;
     }
 
     .hero h1 {
         font-size: 2.5rem;
+        margin-bottom: 1rem;
     }
 
     .hero .subtitle {
         font-size: 1.1rem;
+    }
+
+    .features {
+        padding: 2rem 1.5rem 4rem;
     }
 
     .page-header {
