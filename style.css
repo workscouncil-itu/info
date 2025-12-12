@@ -723,22 +723,26 @@ main {
 
 /* Info Box */
 .info-box {
-    background-color: var(--primary-color);
-    color: white;
+    background-color: var(--bg-light);
+    color: var(--text-dark);
     padding: 3rem;
     border-radius: 0;
     margin-top: 3rem;
+    border-left: 4px solid var(--accent-color);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
 }
 
 .info-box h2,
 .info-box h3 {
     margin-bottom: 1.25rem;
-    color: white;
+    color: var(--text-dark);
 }
 
 .info-box p {
     margin-bottom: 1.25rem;
-    opacity: 0.95;
+    color: var(--text-medium);
     line-height: 1.7;
 }
 
@@ -752,13 +756,15 @@ main {
     padding-left: 1.5rem;
     position: relative;
     line-height: 1.7;
+    color: var(--text-medium);
 }
 
 .info-box li::before {
-    content: '—';
+    content: '•';
     position: absolute;
     left: 0;
-    font-weight: normal;
+    color: var(--accent-color);
+    font-weight: bold;
 }
 
 /* Subscribe Box */
