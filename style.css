@@ -124,7 +124,7 @@ main {
 }
 
 .hero h1 {
-    font-size: 4rem;
+    font-size: 3.2rem;
     margin-bottom: 1.5rem;
     font-weight: 700;
     line-height: 1.1;
@@ -149,7 +149,7 @@ main {
 }
 
 .page-header h1 {
-    font-size: 3rem;
+    font-size: 2.4rem;
     margin-bottom: 1rem;
     font-weight: 700;
     letter-spacing: -0.04em;
@@ -230,7 +230,7 @@ main {
 .feature-card h2 {
     color: var(--text-dark);
     margin-bottom: 0.75rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 600;
     letter-spacing: -0.02em;
     transition: color 0.3s ease;
@@ -479,7 +479,7 @@ main {
 .blog-card h2 {
     color: var(--text-dark);
     margin-bottom: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
     line-height: 1.3;
     letter-spacing: -0.02em;
@@ -544,7 +544,7 @@ main {
 
 .announcement h2 {
     color: var(--text-dark);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 600;
     line-height: 1.3;
     letter-spacing: -0.02em;
@@ -628,7 +628,7 @@ main {
 .report-card h2 {
     color: var(--text-dark);
     margin-bottom: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 600;
     line-height: 1.3;
     letter-spacing: -0.02em;
@@ -692,7 +692,7 @@ main {
 .survey-card h3 {
     color: var(--text-dark);
     margin-bottom: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 600;
     line-height: 1.3;
     letter-spacing: -0.02em;
@@ -740,7 +740,7 @@ main {
 .contact-card h3 {
     color: var(--text-dark);
     margin-bottom: 1.25rem;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-weight: 600;
 }
 
@@ -874,7 +874,7 @@ main {
     color: var(--text-dark);
     margin-top: 3rem;
     margin-bottom: 1.5rem;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 600;
     letter-spacing: -0.03em;
 }
@@ -887,7 +887,7 @@ main {
     color: var(--text-dark);
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 600;
     letter-spacing: -0.02em;
 }
@@ -977,7 +977,7 @@ footer {
     }
 
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-bottom: 1rem;
     }
 
@@ -994,7 +994,7 @@ footer {
     }
 
     .page-header h1 {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     .content-wrapper {
