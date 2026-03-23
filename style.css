@@ -117,14 +117,15 @@ header.scrolled {
     color: var(--text-medium);
     text-decoration: none;
     font-weight: 500;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     transition: color var(--transition), background-color var(--transition);
     position: relative;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
-    padding: 0.45rem 0.8rem;
+    letter-spacing: 0.07em;
+    padding: 0.4rem 0.55rem;
     border-radius: 4px;
     display: block;
+    white-space: nowrap;
 }
 
 .nav-menu a:hover {
