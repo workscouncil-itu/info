@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media & Events - IT:U Works Council</title>
+    <title>Media &amp; Events - IT:U Works Council</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,117 +16,174 @@
                 <div class="logo">
                     <a href="index.html">IT:U Works Council</a>
                 </div>
+                <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
                 <ul class="nav-menu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="who-we-are.html">Who We Are</a></li>
-                    <li><a href="media-events.html" class="active">Media & Events</a></li>
+                    <li><a href="media-events.html">Media &amp; Events</a></li>
                     <li><a href="announcements.html">Announcements</a></li>
-                    <li><a href="reports.html">Reports</a></li>
+                    <li><a href="reports.html">Data Reports</a></li>
+                    <li><a href="works-agreements.html">Works Agreements</a></li>
+                    <li><a href="know-your-rights.html">Know Your Rights</a></li>
                     <li><a href="surveys.html">Surveys</a></li>
                 </ul>
             </div>
         </nav>
+        <div class="nav-overlay"></div>
     </header>
 
     <main>
         <section class="page-header">
-            <h1>MEDIA & EVENTS</h1>
-            <p class="subtitle">Stay informed about our latest events, meetings, and media coverage.</p>
+            <h1>Media &amp; Events</h1>
+            <p class="subtitle">Stay informed about our latest events, meetings, and news from the Works Council.</p>
         </section>
 
         <section class="content">
             <div class="content-wrapper">
                 <div class="blog-wrapper">
-                <article class="blog-card expandable">
-                    <div class="blog-card-header">
-                        <div class="blog-meta">
-                            <span class="blog-category">Event</span>
-                            <time>December 16, 2025</time>
+                    <article class="blog-card expandable reveal" id="town-hall-march-2026">
+                        <div class="blog-card-header">
+                            <div class="blog-meta">
+                                <span class="blog-category">Town Hall</span>
+                                <time>March 25, 2026</time>
+                            </div>
+                            <h2>Works Council Town Hall — Dual Location!</h2>
+                            <p class="blog-excerpt">Join our monthly Works Council Town Hall in two locations or online. Wednesday, March 25th, 10:00–10:45.</p>
                         </div>
-                        <h2>WORKS COUNCIL ROOM OPENING 🎉</h2>
-                        <img src="images/poster_warming.png" alt="Works Council Room Opening Invitation" class="blog-card-image">
-                        <p class="blog-excerpt">Join us for the opening of the Works Council office - Research Campus (Room 2032)!</p>
-                    </div>
-                    <div class="blog-card-content">
-                        <p>Hi IT-U Team!</p>
-                        
-                        <p>Join us for the opening of the Works Council office - Research Campus (Room 2032)!</p>
-                        
-                        <p>Drop in between <strong>14:00 and 15:00</strong> for warm (non alcoholic) punch, snacks, and conversation.</p>
-                        
-                        <p>During your visit, you can:</p>
-                        <ul>
-                            <li>Get to know your elected representatives</li>
-                            <li>Learn about our working office hours and how to meet with us in the future</li>
-                            <li>Explore the office - your safe and confidential place to discuss anything work-related</li>
-                            <li>Ask questions, raise concerns, or just chat to understand what the Works Council can do for you</li>
-                        </ul>
-                        
-                        <p>This type of event is taking place from now on once a month in case you miss this one, we want to be able to give you a chance to come and have open conversations and meet others.</p>
-                        
-                        <p>We look forward to meeting you and welcoming you into your safe space! 😊</p>
-                        
-                        <div class="blog-members">
-                            <p><strong>Theo, Julia, Michaela, Matt and Deler</strong></p>
-                        </div>
-                    </div>
-                    <button class="expand-toggle" aria-label="Expand content">Read more</button>
-                </article>
+                        <div class="blog-card-content">
+                            <p>You're invited to our monthly Works Council Town Hall, taking place in two locations: Research C. (Gold 2049) and Education C. (LED-Wall), as well as online!</p>
 
-                <article class="blog-card expandable">
-                    <div class="blog-card-header">
-                        <div class="blog-meta">
-                            <span class="blog-category">Announcement</span>
-                            <time>November 2, 2025</time>
+                            <p>
+                                <strong>Date:</strong> Wednesday, 25/03<br>
+                                <strong>Time:</strong> 10:00–10:45<br>
+                                <strong>Location:</strong> Gold 2049, LED-Wall, or online
+                            </p>
+
+                            <p><strong>Agenda:</strong></p>
+                            <ul>
+                                <li>10:00–10:05 &mdash; Quick Updates and Announcements</li>
+                                <li>10:05–10:15 &mdash; Presentation and Discussion Related to Works Agreements</li>
+                                <li>10:15–10:25 &mdash; Employee Input and Live Survey</li>
+                                <li>10:25–10:30 &mdash; Website Presentation</li>
+                                <li>10:30–10:45 &mdash; Open Q&amp;A</li>
+                            </ul>
+
+                            <p>We strongly encourage everyone to join!</p>
+
+                            <p>See you all there!</p>
+
+                            <div class="blog-members">
+                                <p><strong>Your Works Council Members:</strong></p>
+                                <p>Theodoros Saroglou, Julia Rippatha, Matthew Dold, Deler Langenberg and Michaela Lamplmayr</p>
+                            </div>
                         </div>
-                        <h2>WORKS COUNCIL CONSTITUTION</h2>
-                        <img src="images/wc_team.jpg" alt="Works Council Members" class="blog-card-image">
-                        <p class="blog-excerpt">We are pleased to announce that the Works Council has now been officially constituted.</p>
-                    </div>
-                    <div class="blog-card-content">
-                        <p>We are pleased to announce that the Works Council has now been officially constituted. The council elected <strong>Theodoros Saroglou</strong> as Chairperson and <strong>Julia Rippatha</strong> as Deputy Chairperson.</p>
-                        
-                        <p>During the inaugural meeting, the council discussed key topics related to the upcoming program and set priorities for the next steps. In the coming period, we will establish a two-way communication system to ensure transparent and effective exchange between the council and all employees.</p>
-                        
-                        <p>We look forward to constructive collaboration and to representing the interests of our community together.</p>
-                        
-                        <div class="blog-members">
-                            <p><strong>Your Works Council Members:</strong></p>
-                            <p>Theodoros Saroglou, Julia Rippatha, Matthew Dold, Deler Langenberg and Michaela Lamplmayr</p>
+                        <button class="expand-toggle" aria-expanded="false" aria-label="Expand content">Read more</button>
+                    </article>
+
+                    <article class="blog-card expandable reveal reveal-delay-1" id="room-opening-dec-2025">
+                        <div class="blog-card-header">
+                            <div class="blog-meta">
+                                <span class="blog-category">Event</span>
+                                <time>December 16, 2025</time>
+                            </div>
+                            <h2>Works Council Room Opening</h2>
+                            <img src="images/poster_warming.png" alt="Works Council Room Opening Invitation" class="blog-card-image">
+                            <p class="blog-excerpt">Join us for the opening of the Works Council office — Research Campus (Room 2032)!</p>
                         </div>
-                    </div>
-                    <button class="expand-toggle" aria-label="Expand content">Read more</button>
-                </article>
+                        <div class="blog-card-content">
+                            <p>Hi IT:U Team!</p>
+
+                            <p>Join us for the opening of the Works Council office — Research Campus (Room 2032)!</p>
+
+                            <p>Drop in between <strong>14:00 and 15:00</strong> for warm (non-alcoholic) punch, snacks, and conversation.</p>
+
+                            <p>During your visit, you can:</p>
+                            <ul>
+                                <li>Get to know your elected representatives</li>
+                                <li>Learn about our working office hours and how to meet with us in the future</li>
+                                <li>Explore the office — your safe and confidential place to discuss anything work-related</li>
+                                <li>Ask questions, raise concerns, or just chat to understand what the Works Council can do for you</li>
+                            </ul>
+
+                            <p>This type of event is taking place once a month going forward, so if you miss this one, there will be another opportunity soon.</p>
+
+                            <p>We look forward to meeting you and welcoming you into your safe space!</p>
+
+                            <div class="blog-members">
+                                <p><strong>Theo, Julia, Michaela, Matt and Deler</strong></p>
+                            </div>
+                        </div>
+                        <button class="expand-toggle" aria-expanded="false" aria-label="Expand content">Read more</button>
+                    </article>
+
+                    <article class="blog-card expandable reveal reveal-delay-2" id="constitution-nov-2025">
+                        <div class="blog-card-header">
+                            <div class="blog-meta">
+                                <span class="blog-category">Announcement</span>
+                                <time>November 2, 2025</time>
+                            </div>
+                            <h2>Works Council Constitution</h2>
+                            <img src="images/wc_team.jpg" alt="Works Council Members" class="blog-card-image">
+                            <p class="blog-excerpt">We are pleased to announce that the Works Council has now been officially constituted.</p>
+                        </div>
+                        <div class="blog-card-content">
+                            <p>We are pleased to announce that the Works Council has now been officially constituted. The council elected <strong>Theodoros Saroglou</strong> as Chairperson and <strong>Julia Rippatha</strong> as Deputy Chairperson.</p>
+
+                            <p>During the inaugural meeting, the council discussed key topics related to the upcoming program and set priorities for the next steps. In the coming period, we will establish a two-way communication system to ensure transparent and effective exchange between the council and all employees.</p>
+
+                            <p>We look forward to constructive collaboration and to representing the interests of our community together.</p>
+
+                            <div class="blog-members">
+                                <p><strong>Your Works Council Members:</strong></p>
+                                <p>Theodoros Saroglou, Julia Rippatha, Matthew Dold, Deler Langenberg and Michaela Lamplmayr</p>
+                            </div>
+                        </div>
+                        <button class="expand-toggle" aria-expanded="false" aria-label="Expand content">Read more</button>
+                    </article>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 IT:U Works Council. All rights reserved.</p>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo-footer">IT:U Works Council</a>
+                <p>Representing the interests of all employees at the Interdisciplinary Transformation University, Linz.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigate</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="who-we-are.html">Who We Are</a></li>
+                    <li><a href="media-events.html">Media &amp; Events</a></li>
+                    <li><a href="announcements.html">Announcements</a></li>
+                    <li><a href="reports.html">Data Reports</a></li>
+                    <li><a href="works-agreements.html">Works Agreements</a></li>
+                    <li><a href="know-your-rights.html">Know Your Rights</a></li>
+                    <li><a href="surveys.html">Surveys</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <address>
+                    <a href="mailto:works.council@it-u.at">works.council@it-u.at</a><br>
+                    Room 2032, Research Campus<br>
+                    IT:U, Linz
+                </address>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2025 IT:U Works Council. All rights reserved.</span>
+            <span>Interdisciplinary Transformation University</span>
+        </div>
     </footer>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const expandButtons = document.querySelectorAll('.expand-toggle');
-            
-            expandButtons.forEach(button => {
-                button.addEventListener('click', function(e) {
-                    e.stopPropagation();
-                    const card = this.closest('.blog-card');
-                    const isExpanded = card.classList.contains('expanded');
-                    
-                    if (isExpanded) {
-                        card.classList.remove('expanded');
-                        this.textContent = 'Read more';
-                    } else {
-                        card.classList.add('expanded');
-                        this.textContent = 'Read less';
-                    }
-                });
-            });
-        });
-    </script>
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+    <script src="main.js"></script>
 </body>
 </html>
-

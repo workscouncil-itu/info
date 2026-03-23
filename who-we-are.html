@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Who We Are - IT:U Works Council</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,42 +16,51 @@
                 <div class="logo">
                     <a href="index.html">IT:U Works Council</a>
                 </div>
+                <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
                 <ul class="nav-menu">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="who-we-are.html" class="active">Who We Are</a></li>
-                    <li><a href="media-events.html">Media & Events</a></li>
+                    <li><a href="who-we-are.html">Who We Are</a></li>
+                    <li><a href="media-events.html">Media &amp; Events</a></li>
                     <li><a href="announcements.html">Announcements</a></li>
-                    <li><a href="reports.html">Reports</a></li>
+                    <li><a href="reports.html">Data Reports</a></li>
+                    <li><a href="works-agreements.html">Works Agreements</a></li>
+                    <li><a href="know-your-rights.html">Know Your Rights</a></li>
                     <li><a href="surveys.html">Surveys</a></li>
                 </ul>
             </div>
         </nav>
+        <div class="nav-overlay"></div>
     </header>
 
     <main>
         <section class="page-header">
-            <h1>WHO WE ARE</h1>
+            <h1>Who We Are</h1>
+            <p class="subtitle">Your elected representatives at IT:U, working for a fair and transparent workplace.</p>
         </section>
 
         <section class="content">
             <div class="content-wrapper">
-                <p class="lead">
-                    The IT:U Works Council represents the interests of all employees at the 
-                    Interdisciplinary Transformation University. We are committed to ensuring 
-                    fair working conditions, advocating for employee rights, and maintaining 
+                <p class="lead reveal">
+                    The IT:U Works Council represents the interests of all employees at the
+                    Interdisciplinary Transformation University. We are committed to ensuring
+                    fair working conditions, advocating for employee rights, and maintaining
                     open communication between staff and management.
                 </p>
 
-                <img src="images/wc_team.jpg" alt="Works Council Members" class="team-photo">
+                <img src="images/wc_team.jpg" alt="Works Council Members" class="team-photo reveal">
 
-                <h2>OUR MISSION</h2>
-                <p>
-                    Our mission is to protect and promote the rights and interests of all employees, 
+                <h2 class="reveal">Our Mission</h2>
+                <p class="reveal">
+                    Our mission is to protect and promote the rights and interests of all employees,
                     ensuring a fair, respectful, and productive working environment at IT:U.
                 </p>
 
-                <h2>OUR RESPONSIBILITIES</h2>
-                <ul>
+                <h2 class="reveal">Our Responsibilities</h2>
+                <ul class="reveal">
                     <li>Representing employee interests in workplace matters</li>
                     <li>Negotiating with management on behalf of staff</li>
                     <li>Ensuring compliance with labor laws and regulations</li>
@@ -56,16 +68,16 @@
                     <li>Organizing events and initiatives for the community</li>
                 </ul>
 
-                <div class="contact-section">
-                    <h2>CONTACT US</h2>
+                <div class="contact-section reveal">
+                    <h2>Contact Us</h2>
                     <div class="contact-grid">
                         <div class="contact-card">
-                            <h3>GENERAL INQUIRIES</h3>
-                            <p><strong>Email:</strong> <a href="mailto:works.council@it-u.at">works.council@it-u.at</a></p>
+                            <h3>General Inquiries</h3>
+                            <p><a href="mailto:works.council@it-u.at">works.council@it-u.at</a></p>
                         </div>
 
                         <div class="contact-card">
-                            <h3>OFFICE LOCATION</h3>
+                            <h3>Office Location</h3>
                             <p>
                                 IT:U Interdisciplinary Transformation University<br>
                                 Works Council Office<br>
@@ -75,14 +87,14 @@
                     </div>
 
                     <div class="info-box">
-                        <h3>NEED HELP?</h3>
+                        <h3>Need Help?</h3>
                         <p>
-                            If you have questions, concerns, or need assistance with workplace matters, 
-                            please don't hesitate to reach out to us. We're here to help and ensure 
+                            If you have questions, concerns, or need assistance with workplace matters,
+                            please don't hesitate to reach out. We're here to help and ensure
                             your voice is heard.
                         </p>
-                        <p style="margin-top: 1.5rem;">
-                            You can also use our <a href="https://cryptpad.fr/form/#/2/form/view/NUgSlEInOM-z5EOr7tSg5rWHgcRxuYmMIWSJ3c9p4qY/" target="_blank" style="color: var(--accent-color); font-weight: 600; text-decoration: underline;">Works Council Support Form</a> - <strong>submissions can be completely anonymous</strong>.
+                        <p>
+                            You can also use our <a href="https://cryptpad.fr/form/#/2/form/view/NUgSlEInOM-z5EOr7tSg5rWHgcRxuYmMIWSJ3c9p4qY/" target="_blank" style="color: var(--accent-color); font-weight: 600; text-decoration: underline;">Works Council Support Form</a> — <strong>submissions can be completely anonymous</strong>.
                         </p>
                     </div>
                 </div>
@@ -91,8 +103,40 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 IT:U Works Council. All rights reserved.</p>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo-footer">IT:U Works Council</a>
+                <p>Representing the interests of all employees at the Interdisciplinary Transformation University, Linz.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigate</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="who-we-are.html">Who We Are</a></li>
+                    <li><a href="media-events.html">Media &amp; Events</a></li>
+                    <li><a href="announcements.html">Announcements</a></li>
+                    <li><a href="reports.html">Data Reports</a></li>
+                    <li><a href="works-agreements.html">Works Agreements</a></li>
+                    <li><a href="know-your-rights.html">Know Your Rights</a></li>
+                    <li><a href="surveys.html">Surveys</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <address>
+                    <a href="mailto:works.council@it-u.at">works.council@it-u.at</a><br>
+                    Room 2032, Research Campus<br>
+                    IT:U, Linz
+                </address>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2025 IT:U Works Council. All rights reserved.</span>
+            <span>Interdisciplinary Transformation University</span>
+        </div>
     </footer>
+
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+    <script src="main.js"></script>
 </body>
 </html>
-

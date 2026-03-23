@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Announcements - IT:U Works Council</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,34 +16,80 @@
                 <div class="logo">
                     <a href="index.html">IT:U Works Council</a>
                 </div>
+                <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
                 <ul class="nav-menu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="who-we-are.html">Who We Are</a></li>
-                    <li><a href="media-events.html">Media & Events</a></li>
-                    <li><a href="announcements.html" class="active">Announcements</a></li>
-                    <li><a href="reports.html">Reports</a></li>
+                    <li><a href="media-events.html">Media &amp; Events</a></li>
+                    <li><a href="announcements.html">Announcements</a></li>
+                    <li><a href="reports.html">Data Reports</a></li>
+                    <li><a href="works-agreements.html">Works Agreements</a></li>
+                    <li><a href="know-your-rights.html">Know Your Rights</a></li>
                     <li><a href="surveys.html">Surveys</a></li>
                 </ul>
             </div>
         </nav>
+        <div class="nav-overlay"></div>
     </header>
 
     <main>
         <section class="page-header">
-            <h1>ANNOUNCEMENTS</h1>
-            <p class="subtitle">Important updates and announcements from the Works Council.</p>
+            <h1>Announcements</h1>
+            <p class="subtitle">Important updates and notices from the Works Council.</p>
         </section>
 
         <section class="content">
             <div class="content-wrapper">
-                <p>No announcements at this time. Check back soon for updates.</p>
+                <div class="empty-state reveal">
+                    <svg class="empty-state-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0"/>
+                    </svg>
+                    <p>No announcements at this time.</p>
+                    <p class="empty-hint">Check back soon — we'll post important updates here.</p>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 IT:U Works Council. All rights reserved.</p>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo-footer">IT:U Works Council</a>
+                <p>Representing the interests of all employees at the Interdisciplinary Transformation University, Linz.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigate</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="who-we-are.html">Who We Are</a></li>
+                    <li><a href="media-events.html">Media &amp; Events</a></li>
+                    <li><a href="announcements.html">Announcements</a></li>
+                    <li><a href="reports.html">Data Reports</a></li>
+                    <li><a href="works-agreements.html">Works Agreements</a></li>
+                    <li><a href="know-your-rights.html">Know Your Rights</a></li>
+                    <li><a href="surveys.html">Surveys</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <address>
+                    <a href="mailto:works.council@it-u.at">works.council@it-u.at</a><br>
+                    Room 2032, Research Campus<br>
+                    IT:U, Linz
+                </address>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2025 IT:U Works Council. All rights reserved.</span>
+            <span>Interdisciplinary Transformation University</span>
+        </div>
     </footer>
+
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+    <script src="main.js"></script>
 </body>
 </html>
-
